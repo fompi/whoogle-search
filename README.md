@@ -78,7 +78,7 @@ If using Heroku Quick Deploy, **you can skip this section**.
 There are a few different ways to begin using the app, depending on your preferences:
 
 ### A) [Heroku Quick Deploy](https://heroku.com/about)
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/benbusby/whoogle-search/tree/main)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/fompi/whoogle-search/tree/main)
 
 Provides:
 - Free deployment of app
@@ -90,7 +90,7 @@ Notes:
 - Sometimes has issues with auto-redirecting to `https`. Make sure to navigate to the `https` version of your app before adding as a default search engine.
 
 ### B) [Repl.it](https://repl.it)
-[![Run on Repl.it](https://repl.it/badge/github/benbusby/whoogle-search)](https://repl.it/github/benbusby/whoogle-search)
+[![Run on Repl.it](https://repl.it/badge/github/fompi/whoogle-search)](https://repl.it/github/fompi/whoogle-search)
 
 *Note: Requires a (free) Replit account*
 
