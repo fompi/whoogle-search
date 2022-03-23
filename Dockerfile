@@ -34,34 +34,10 @@ ARG proxytype=''
 ARG proxyloc=''
 ARG whoogle_dotenv=''
 ARG use_https=''
-ARG whoogle_port=5000
-ARG twitter_alt='farside.link/nitter'
-ARG youtube_alt='farside.link/invidious'
-ARG instagram_alt='farside.link/bibliogram'
-ARG reddit_alt='farside.link/libreddit'
-ARG medium_alt='farside.link/scribe'
-ARG translate_alt='farside.link/lingva'
-ARG imgur_alt='farside.link/rimgo'
-ARG wikipedia_alt='farside.link/wikiless'
 
 ENV CONFIG_VOLUME=$config_dir \
-    WHOOGLE_USER=$username \
-    WHOOGLE_PASS=$password \
-    WHOOGLE_PROXY_USER=$proxyuser \
-    WHOOGLE_PROXY_PASS=$proxypass \
-    WHOOGLE_PROXY_TYPE=$proxytype \
-    WHOOGLE_PROXY_LOC=$proxyloc \
-    WHOOGLE_DOTENV=$whoogle_dotenv \
-    HTTPS_ONLY=$use_https \
-    EXPOSE_PORT=$whoogle_port \
-    WHOOGLE_ALT_TW=$twitter_alt \
-    WHOOGLE_ALT_YT=$youtube_alt \
     WHOOGLE_ALT_IG=$instagram_alt \
-    WHOOGLE_ALT_RD=$reddit_alt \
-    WHOOGLE_ALT_MD=$medium_alt \
-    WHOOGLE_ALT_TL=$translate_alt \
-    WHOOGLE_ALT_IMG=$imgur_alt \
-    WHOOGLE_ALT_WIKI=$wikipedia_alt
+
 
 WORKDIR /whoogle
 
